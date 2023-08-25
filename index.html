@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+
+<body>
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <p>
+        <span>See more</span>
+        <a href="https://www.freecatphotoapp.com/">cat photos</a>
+        <span>in our gallery.</span>
+    </p>
+    <img src="https://bit.ly/fcc-relaxing-cat" />
+    <h2>Cat Lists</h2>
+    <h3>Things cats love:</h3>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Cats love lasagna." />
+        <br><span>Cats <i>love</i> lasagna.</span>
+    </ul>
+    <h3>Top 3 things cats hate:</h3>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Cats hate other cats.">
+        <br><span>Cats <strong>hate</strong> other cats.</span>
+    </ol>
+    <h2>Cat Form</h2>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        </fieldset>
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label
+                for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label
+                for="energetic">Energetic</label>
+        </fieldset>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p>
+        <span>No Copyright -</span>
+        <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a>
+    </p>
+</body>
+
+</html>
